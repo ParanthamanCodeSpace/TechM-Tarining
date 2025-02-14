@@ -1,9 +1,9 @@
 import java.util.*;
 
-public class HashMap {
+public class SetHashMap {
     public static void main(String[] args) {
-        // Using Hashtable (Can also use HashMap)
-        Hashtable<Integer, String> hmap = new Hashtable<>();
+        // Using HashMap 
+        HashMap<Integer, String> hmap = new HashMap<>();
 
         // Adding key-value pairs
         hmap.put(1, "one");
@@ -11,15 +11,15 @@ public class HashMap {
         hmap.put(3, "three");
 
         // Printing initial map
-        System.out.println("Initial Hashtable: " + hmap);
+        System.out.println("Initial Hashmap: " + hmap);
 
         // Updating value for key 2
         hmap.put(2, "For");
-        System.out.println("Updated Hashtable: " + hmap);
+        System.out.println("Updated Hashmap: " + hmap);
 
         // Removing key 1
         hmap.remove(1);
-        System.out.println("Hashtable after removal: " + hmap);
+        System.out.println("Hashmap after removal: " + hmap);
 
         // Traversing the map
         System.out.println("Map Traversal:");
