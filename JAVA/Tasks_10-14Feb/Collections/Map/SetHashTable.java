@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class HashTable {
+public class SetHashTable {
     public static void main(String[] args) {
         // Using Hashtable (Can also use HashMap)
         Hashtable<Integer, String> htab = new Hashtable<>();
