@@ -85,8 +85,9 @@ if (!isNaN(checkNum)) {
     console.log("Invalid number input.");
 }
 
-// 8. Tomato price calculationlet prices = [];
-let days = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
+// 8. Tomato price calculationlet 
+prices = [];
+let days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
 
 for (let i = 0; i < 7; i++) {
     let price = parseFloat(prompt(`enter amount on ${days[i]} `));
